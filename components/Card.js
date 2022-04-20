@@ -17,7 +17,7 @@ const Card = ({ data, onCardPress }) => {
 const styles = StyleSheet.create({
     cardWrapper: { width: '100%', backgroundColor: '#eaeaea', marginVertical: 6, borderRadius: 8, flexDirection: 'row', padding: 12, elevation: 4 },
     imageStyle: { width: 80, height: 80, borderRadius: 8 },
-    textStyle: { flex: 1, paddingLeft: 12 }
+    textStyle: { flex: 1, paddingLeft: 12, color : '#444', fontWeight : '600', fontSize : 16 }
 })
 
 export default memo(Card)
